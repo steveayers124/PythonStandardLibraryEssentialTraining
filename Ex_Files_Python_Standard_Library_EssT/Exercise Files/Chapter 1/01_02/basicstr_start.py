@@ -26,12 +26,37 @@ test_string3 = "90210"
 # result = "".join(["a" for a in test_string1 if a in string.ascii_letters])
 # result = "".join(["`" for a in test_string1 if a in string.ascii_letters])
 # result = "".join(["`" for a in test_string1 if a in "abc"])
-result = "".join([c for c in test_string1 if c in string.ascii_letters])
-print(result)
-
-print(test_string1.isalnum())
-print(test_string2.isalpha())
-
+# result = "".join([c for c in test_string1 if c in string.ascii_letters])
+# print(result)
 
 
 # TODO: String testing methods
+
+# print(test_string1.isalnum())
+# print(test_string2.isalpha())
+
+print(all([c.isalpha() for c in test_string1]))
+print(all([c.isalpha() for c in test_string2]))
+print(all([c.isalpha() for c in test_string3]))
+
+print(all([c.isalnum() for c in test_string1]))
+print(all([c.isalnum() for c in test_string2]))
+print(all([c.isalnum() for c in test_string3]))
+
+print(all([c.isnumeric() for c in test_string1]))
+print(all([c.isnumeric() for c in test_string2]))
+print(all([c.isnumeric() for c in test_string3]))
+
+
+# TODO: more playing around
+print("".join([c for c in test_string1 if c in string.ascii_letters]))
+print("".join([c for c in test_string2 if c in string.ascii_letters]))
+print("".join([c for c in test_string3 if c in string.ascii_letters]))
+
+print("".join([c for c in test_string1 if c in string.digits]))
+print("".join([c for c in test_string2 if c in string.digits]))
+print("".join([c for c in test_string3 if c in string.digits]))
+
+print("".join([c for c in test_string1 if c in string.hexdigits]))
+print("".join([c for c in test_string2 if c in string.hexdigits]))
+print("".join([c for c in test_string3 if c in string.hexdigits]))
