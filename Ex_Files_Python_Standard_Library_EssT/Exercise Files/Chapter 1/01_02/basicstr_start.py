@@ -16,5 +16,7 @@ test_string2 = "Supercalifragilistic"
 test_string3 = "90210"
 
 result = "".join([c for c in test_string1 if c in string.ascii_letters])
+print(result)
+
 
 # TODO: String testing methods
