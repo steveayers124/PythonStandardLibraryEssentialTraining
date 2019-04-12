@@ -60,3 +60,17 @@ print("".join([c for c in test_string3 if c in string.digits]))
 print("".join([c for c in test_string1 if c in string.hexdigits]))
 print("".join([c for c in test_string2 if c in string.hexdigits]))
 print("".join([c for c in test_string3 if c in string.hexdigits]))
+
+print("\n\n\n")
+
+print(any([c.isalpha() for c in test_string1]))
+print(any([c.isalpha() for c in test_string2]))
+print(any([c.isalpha() for c in test_string3]))
+
+print(any([c.isalnum() for c in test_string1]))
+print(any([c.isalnum() for c in test_string2]))
+print(any([c.isalnum() for c in test_string3]))
+
+print(any([c.isnumeric() for c in test_string1]))
+print(any([c.isnumeric() for c in test_string2]))
+print(any([c.isnumeric() for c in test_string3]))
