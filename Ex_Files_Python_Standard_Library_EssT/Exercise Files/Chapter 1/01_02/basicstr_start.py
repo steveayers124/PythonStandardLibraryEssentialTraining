@@ -3,6 +3,11 @@ import string
 
 
 # TODO: predefined string constants can be used in common scenarios
+print(string.ascii_letters)
+print(string.digits)
+print(string.hexdigits)
+print(string.punctuation)
+
 
 
 # TODO: Use the constants to filter information out
