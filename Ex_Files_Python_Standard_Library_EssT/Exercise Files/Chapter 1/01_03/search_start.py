@@ -16,5 +16,7 @@ sampleStr = "The quick brown fox jumps over the lazy dog"
 # TODO: using replace
 newStr = sampleStr.replace("lazy", "tired")
 print(newStr)
+newStr = sampleStr.replace("lazy", "")
+print(newStr)
 
 # TODO: counting instances of substrings
