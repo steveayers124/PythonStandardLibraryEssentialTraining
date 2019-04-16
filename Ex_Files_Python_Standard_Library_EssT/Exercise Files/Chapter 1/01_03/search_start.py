@@ -24,5 +24,7 @@ newStr = sampleStr.replace("o", "~", 1)
 print(newStr)
 newStr = sampleStr.replace("o", "~", -1)
 print(newStr)
+newStr = sampleStr.replace("o", "~", 3)
+print(newStr)
 
 # TODO: counting instances of substrings
