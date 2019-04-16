@@ -12,6 +12,8 @@ print(test_string1.split(" "))
 print(" ".join(["The", "easter", "egg", "is", "for", "Miranda"]))
 letters = ["a","b","c"]
 print(", ".join(letters))
+print("Norwax, Inc|5826 S. Westgate Rd|Penton|CO|84632".split("|"))
+print("|".join(["09817234987234","34.97","2","2019-04-16'T'09:57:01.528Z","1"]))
 
 # TODO: use justification functions to align strings
 # ljust, center, rjust
