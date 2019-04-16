@@ -18,5 +18,7 @@ newStr = sampleStr.replace("lazy", "tired")
 print(newStr)
 newStr = sampleStr.replace("lazy", "")
 print(newStr)
+newStr = sampleStr.replace("o", "~")
+print(newStr)
 
 # TODO: counting instances of substrings
