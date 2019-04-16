@@ -31,3 +31,4 @@ print(newStr)
 
 # TODO: counting instances of substrings
 print(sampleStr.count("over"))
+print(sampleStr.count("he "))
