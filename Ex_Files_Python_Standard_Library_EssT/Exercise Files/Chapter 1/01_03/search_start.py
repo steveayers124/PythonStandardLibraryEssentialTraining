@@ -10,6 +10,7 @@ sampleStr = "The quick brown fox jumps over the lazy dog"
 
 # TODO: the find and rfind functions
 print(sampleStr.find("the"))
+print(sampleStr.rfind("the"))
 
 # TODO: using replace
 
