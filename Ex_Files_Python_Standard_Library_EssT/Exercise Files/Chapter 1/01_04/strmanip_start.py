@@ -12,6 +12,9 @@ print(test_string1.split(" "))
 print(" ".join(["The", "easter", "egg", "is", "for", "Miranda"]))
 letters = ["a","b","c"]
 print(", ".join(letters))
+# https://support.klipfolio.com/hc/en-us/.../210940137-Working-with-UTC-date-Format
+# Salesforce CreatedDate format:
+# UTC format --> "yyyy-MM-dd'T'HH:mm:ss.SSSZ"
 print("Norwax, Inc|5826 S. Westgate Rd|Penton|CO|84632".split("|"))
 print("|".join(["09817234987234","34.97","2","2019-04-16'T'09:57:01.528Z","1"]))
 
