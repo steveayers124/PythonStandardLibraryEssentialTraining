@@ -33,3 +33,6 @@ for name in names:
 
 # TODO: Use a translation table to replace characters
 sample_str = "The quick brown fox jumped over the lazy dog"
+trans_table = str.maketrans("abegilostz", "4636110572")
+print(sample_str)
+print(sample_str.translate(trans_table))
