@@ -23,5 +23,7 @@ print("|".join(["09817234987234","34.97","2","2019-04-16'T'09:57:01.528Z","1"]))
 names = ["Amy", "John", "George", "Michael", "Penelope"]
 biggest = max(len(name) for name in names)
 
+print("\n".join(names))
+
 # TODO: Use a translation table to replace characters
 sample_str = "The quick brown fox jumped over the lazy dog"
