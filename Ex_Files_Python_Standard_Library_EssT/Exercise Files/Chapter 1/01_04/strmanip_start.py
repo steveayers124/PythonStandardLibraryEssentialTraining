@@ -21,7 +21,9 @@ print("|".join(["09817234987234","34.97","2","2019-04-16'T'09:57:01.528Z","1"]))
 # TODO: use justification functions to align strings
 # ljust, center, rjust
 names = ["Amy", "John", "George", "Michael", "Penelope"]
-biggest = max(len(name) for name in names)
+longestLength = max(len(name) for name in names)
+for name in names:
+    print(name.ljust(longestLength+2,"-") + ":")
 
 print("\n".join(names))
 
