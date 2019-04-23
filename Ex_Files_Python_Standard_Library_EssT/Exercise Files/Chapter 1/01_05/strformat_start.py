@@ -6,6 +6,14 @@ the_str = "The quick brown $animal $action over the lazy dog"
 the_template = Template(the_str)
 output_str = the_template.substitute(animal="fox", action="jumped")
 print(output_str)
+# Now use a ditionary object
+args = {
+    "animal":"cow",
+    "action":"walked"
+}
+print(the_template.substitute(args))
+
+
 
 # TODO: Using str.format()
 foo = "foo"
