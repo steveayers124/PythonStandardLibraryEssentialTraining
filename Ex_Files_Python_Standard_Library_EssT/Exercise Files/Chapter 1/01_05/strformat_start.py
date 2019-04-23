@@ -20,7 +20,7 @@ print(the_template.substitute(args))
 foo = "foo"
 bar = 123
 print("Output: {}, {}".format(foo, bar))
-
+print("Output: {1}, {0}".format(foo, bar))
 
 
 
