@@ -14,10 +14,16 @@ args = {
 print(the_template.substitute(args))
 
 
-
 # TODO: Using str.format()
+# the format string is very powerful. This tutorial doesn't dive
+#  deeply into usage of the format string. But do so on your own
 foo = "foo"
 bar = 123
+print("Output: {}, {}".format(foo, bar))
+
+
+
+
 
 
 # TODO: Using interpolation with f-strings in Python 3.6
