@@ -24,7 +24,7 @@ print("Output: {1}, {0}".format(foo, bar))
 date = "2019-04-23"
 meal = "lunch"
 print("Today's date is {0}. On {0}, you should go to {1}.\nYou should go to {1} on {0}.".format(date, meal))
-
+print("Output: {var1}, {var2}".format(var1=foo,var2=bar))
 
 
 
