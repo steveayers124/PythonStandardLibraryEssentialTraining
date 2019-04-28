@@ -7,4 +7,4 @@ sortedScores = sorted(testScores)
 print(sortedScores)
 
 # TODO: explicitly declare a sort order - ascending and descending
-
+print(sorted(testScores, reverse=True))
