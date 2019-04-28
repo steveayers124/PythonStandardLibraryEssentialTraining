@@ -28,7 +28,7 @@ print("Today's date is {0}. On {0}, you should go to {1}.\nYou should go to {1} 
 print("Output: {var1}, {var2}".format(var1=foo,var2=bar))
 # But you can also use formatting directives- lower and upper case hex
 print("Output: Octal |{var2:o}|, lowerHex |{var2:x}|, upperHex |{var2:X}|, {var1}".format(var1=foo,var2=bar))
-print("Output: Binary |{var2:b}|, Decimal |{var2:d}|, Chacter |{var2:c}|, {var1}".format(var1=foo,var2=bar))
+print("Output: Binary |{var2:b}|, Decimal |{var2:d}|, Character |{var2:c}|, {var1}".format(var1=foo,var2=bar))
 
 
 
