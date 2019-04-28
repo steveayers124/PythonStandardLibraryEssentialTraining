@@ -35,7 +35,7 @@ print("Output: Binary |{var2:b}|, Decimal |{var2:d}|, Character |{var2:c}|, {var
 
 
 # TODO: Using interpolation with f-strings in Python 3.6
-# 
+# https://docs.python.org/3/library/string.html#custom-string-formatting
 product = "Widget"
 price = 19.99
 tax = 0.07
