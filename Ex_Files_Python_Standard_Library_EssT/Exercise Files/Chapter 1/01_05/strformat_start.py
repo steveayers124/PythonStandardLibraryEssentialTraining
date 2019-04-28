@@ -1,5 +1,6 @@
 # String formatting methods and best practices
 from string import Template
+import datetime
 
 # TODO: Using Template strings
 the_str = "The quick brown $animal $action over the lazy dog"
@@ -34,6 +35,11 @@ print("Output: Binary |{var2:b}|, Decimal |{var2:d}|, Character |{var2:c}|, {var
 
 
 # TODO: Using interpolation with f-strings in Python 3.6
+# 
 product = "Widget"
 price = 19.99
 tax = 0.07
+nyd = datetime.datetime(2019,1,1)
+print(f"{product} has a price of {price}, with tax {tax:.2%} the total is {round(price+(price*tax),2)}")
+print(f"But only on {nyd:%B %d %Y}")
+
