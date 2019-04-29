@@ -37,5 +37,7 @@ print("\nUsing methodcaller to invoke a method:")
 print(sorted(prodList, key=methodcaller("discountPrice")))
 
 # TODO: Use itemgetter to retrieve an index
+print("\nUse itemgetter to retrieve value located at specific index for each tuple in the list:")
 inventory = [("Widget A", 5), ("Widget B", 2), ("Widget C", 4),
              ("Widget D", 7), ("Widget E", 4)]
+print(sorted(inventory, key=itemgetter(1)))
