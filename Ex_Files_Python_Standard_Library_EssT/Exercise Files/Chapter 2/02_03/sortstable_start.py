@@ -32,3 +32,6 @@ print(sorted(prodList, key=lambda p: p.price))
 result = sorted(prodList, key=lambda p:p.weight)
 # print(result)
 print(sorted(result, key=lambda p:p.price, reverse=True))
+
+# Or, more suscinctly, 
+print(sorted(sorted(prodList, key=lambda p:p.weight), key=lambda p:p.price, reverse=True))
