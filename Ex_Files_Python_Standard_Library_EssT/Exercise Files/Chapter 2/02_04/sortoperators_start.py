@@ -24,14 +24,16 @@ prodList = [
     Product("Widget E", 70, 7, 0.12)
 ]
 
+print(prodList)
 
 # TODO: the operator module functions provide easy ways to select fields
 # attrgetter() retrieves a given attribute or property from an object
 # itemgetter() retrieves an item at a given index in a collection
 # methodcaller() calls the given method on the object
 print("Using the attrgetter method:")
+print(sorted(prodList, key=attrgetter("weight"), reverse=True))
 
-# print("Using methodcaller to invoke a method:")
+# print("\nUsing methodcaller to invoke a method:")
 
 # TODO: Use itemgetter to retrieve an index
 inventory = [("Widget A", 5), ("Widget B", 2), ("Widget C", 4),
