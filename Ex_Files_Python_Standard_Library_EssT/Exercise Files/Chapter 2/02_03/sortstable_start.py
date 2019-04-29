@@ -17,7 +17,7 @@ class Product():
 
 
 prodList = [
-    Product("Doohickey", 40, 10, 0.15),
+    Product("Doohickey", 40, 10, 0.15), # additional object, weight is 10 vice 8
     Product("Widget", 50, 10, 0.05),
     Product("Doohickey", 40, 8, 0.15),
     Product("Thingamabob", 35, 12, 0.0),
@@ -27,3 +27,8 @@ prodList = [
 print(sorted(prodList, key=lambda p: p.price))
 
 # TODO: sort by two different keys, taking advantage of stability
+# 1: descending by price, 2: sort ascending by weight
+# 2ndary sort first, 
+result = sorted(prodList, key=lambda p:p.weight)
+# print(result)
+print(sorted(result, key=lambda p:p.price, reverse=True))
