@@ -32,3 +32,4 @@ print(sorted(prodList, key=priceSort))
 print(sorted(prodList, key=lambda p:p.price))
 
 # TODO: the key parameter can also call a method on the object
+print(sorted(prodList, key=lambda p:p.discountPrice()))
