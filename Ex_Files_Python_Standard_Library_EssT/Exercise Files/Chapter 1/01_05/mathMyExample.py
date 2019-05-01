@@ -12,3 +12,21 @@ print(f"  math.ceil({f1}) = |{math.ceil(f1)}|")
 i1 = 3
 print(f"  math.ceil({i1}) = |{math.ceil(i1)}|")
 
+print("copysign of")
+a=1.0
+b=-1.0
+print(f"  copysign({a}, {b}) = |{math.copysign(a, b)}|")
+a=-1.0
+b=1.0
+print(f"  copysign({a}, {b}) = |{math.copysign(a, b)}|")
+a=-1.0
+b=-1.0
+print(f"  copysign({a}, {b}) = |{math.copysign(a, b)}|")
+a=1.0
+b=0.0
+print(f"  copysign({a}, {b}) = |{math.copysign(a, b)}|")
+a=1.0
+b=-0.0
+print(f"  copysign({a}, {b}) = |{math.copysign(a, b)}|")
+
+
