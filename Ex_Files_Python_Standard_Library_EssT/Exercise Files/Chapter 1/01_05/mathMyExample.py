@@ -30,5 +30,5 @@ print(f"  copysign({a}, {b}) = |{math.copysign(a, b)}|")
 a=1.0
 b=-0.0
 print(f"  copysign({a}, {b}) = |{math.copysign(a, b)}|")
-
+# According to the documentation, platforms supporting signed zeros yield |-1.0|.
 
