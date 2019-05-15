@@ -43,4 +43,6 @@ i=4
 print(f"  math.factorial({i}) = |{math.factorial(i)}|")
 i=5
 print(f"  math.factorial({i}) = |{math.factorial(i)}|")
+i=6
+print(f"  math.factorial({i}) = |{math.factorial(i)}|")
 
