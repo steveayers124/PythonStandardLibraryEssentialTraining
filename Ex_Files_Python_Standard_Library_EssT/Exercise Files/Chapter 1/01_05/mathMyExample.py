@@ -32,3 +32,7 @@ b=-0.0
 print(f"  copysign({a}, {b}) = |{math.copysign(a, b)}|")
 # According to the documentation, platforms supporting signed zeros yield |-1.0|.
 
+print("math.factorial(x)")
+i=1
+print(f"  math.factorial({i}) = |{math.factorial(i)}|")
+
