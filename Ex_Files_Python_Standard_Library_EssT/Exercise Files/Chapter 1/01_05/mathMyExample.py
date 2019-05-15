@@ -51,4 +51,8 @@ print(f"  (math.factorial({i}) / math.factorial({j})) = |{(math.factorial(i) / m
 i=5
 j=2
 print(f"  (math.factorial({i}) / math.factorial({j})) = |{(math.factorial(i) / math.factorial(j))}|")
+i=6
+j=5
+k=3
+print(f"  ((math.factorial({i}) - math.factorial({j}) ) / math.factorial({k})) = |{((math.factorial(i) - math.factorial(j) ) / math.factorial(k))}|")
 
