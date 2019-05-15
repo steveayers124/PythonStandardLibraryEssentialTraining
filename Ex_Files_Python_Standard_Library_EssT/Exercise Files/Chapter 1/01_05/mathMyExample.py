@@ -35,4 +35,6 @@ print(f"  copysign({a}, {b}) = |{math.copysign(a, b)}|")
 print("math.factorial(x)")
 i=1
 print(f"  math.factorial({i}) = |{math.factorial(i)}|")
+i=2
+print(f"  math.factorial({i}) = |{math.factorial(i)}|")
 
