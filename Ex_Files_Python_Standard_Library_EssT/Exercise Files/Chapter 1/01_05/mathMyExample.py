@@ -45,4 +45,7 @@ i=5
 print(f"  math.factorial({i}) = |{math.factorial(i)}|")
 i=6
 print(f"  math.factorial({i}) = |{math.factorial(i)}|")
+i=4
+j=3
+print(f"  (math.factorial({i}) / math.factorial({j})) = |{(math.factorial(i) / math.factorial(j))}|")
 
