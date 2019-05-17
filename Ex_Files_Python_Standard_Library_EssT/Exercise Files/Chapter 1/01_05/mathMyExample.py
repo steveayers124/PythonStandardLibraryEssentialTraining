@@ -55,4 +55,17 @@ i=6
 j=5
 k=3
 print(f"  ((math.factorial({i}) - math.factorial({j}) ) / math.factorial({k})) = |{((math.factorial(i) - math.factorial(j) ) / math.factorial(k))}|")
+print("\n")
+
+print("floor of")
+f1 = 4.0
+print(f"  math.floor({f1}) = |{math.floor(f1)}|")
+f1 = 4.1
+print(f"  math.floor({f1}) = |{math.floor(f1)}|")
+f1 = 4.5
+print(f"  math.floor({f1}) = |{math.floor(f1)}|")
+f1 = 4.9
+print(f"  math.floor({f1}) = |{math.floor(f1)}|")
+i1 = 3
+print(f"  math.floor({i1}) = |{math.floor(i1)}|")
 
