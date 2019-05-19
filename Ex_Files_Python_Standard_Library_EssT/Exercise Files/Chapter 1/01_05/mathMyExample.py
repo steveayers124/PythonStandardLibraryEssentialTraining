@@ -89,11 +89,18 @@ print("x % y")
 i=10
 j=3
 print(f"  {i} % {j} = |{i % j}|")
+i=10.0
+j=3.0
+print(f"  {i} % {j} = |{i % j}|")
 i=10
 j=5
 print(f"  {i} % {j} = |{i % j}|")
 i=13
 j=7
 print(f"  {i} % {j} = |{i % j}|")
+# even though % may have identical result in many cases, 
+# math.fmod(a, b) is preferred for floats, and
+# a % b is preferred for integers.
+# [see https://docs.python.org/3/library/math.html :: math.fmod(x, y)] 
 #print("\n")
 
