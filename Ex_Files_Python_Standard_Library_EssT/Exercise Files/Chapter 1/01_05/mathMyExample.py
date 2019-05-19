@@ -74,5 +74,8 @@ print("math.fmod(x, y)")
 i=10.0
 j=3.0
 print(f"  math.fmod({i}, {j}) = |{math.fmod(i, j)}|")
+i=10
+j=3
+print(f"  math.fmod({i}, {j}) = |{math.fmod(i, j)}|")
 #print("\n")
 
