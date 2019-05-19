@@ -68,4 +68,11 @@ f1 = 4.9
 print(f"  math.floor({f1}) = |{math.floor(f1)}|")
 i1 = 3
 print(f"  math.floor({i1}) = |{math.floor(i1)}|")
+print("\n")
+
+print("math.fmod(x, y)")
+i=10.0
+j=3.0
+print(f"  math.fmod({i}, {j}) = |{math.fmod(i, j)}|")
+#print("\n")
 
