@@ -83,5 +83,11 @@ print(f"  math.fmod({i}, {j}) = |{math.fmod(i, j)}|")
 i=13.0
 j=7.0
 print(f"  math.fmod({i}, {j}) = |{math.fmod(i, j)}|")
+print("\n")
+
+print("x % y")
+i=10.0
+j=3.0
+print(f"  {i} % {j} = |{i % j}|")
 #print("\n")
 
