@@ -108,5 +108,8 @@ print("math.frexp(x)")
 # Okay, this is lower level stuff... given a float, express its internal representation:
 # First its multiplier, the mantissa, and second its exponent which the base, 2, is raised to.
 f = 10.24
-print(f"math.frexp({f}) = |{math.frexp(f)}|")
+print(f"math.frexp({f}) = |{math.frexp(f)}|")   # math.frexp(10.24) = |(0.64, 4)|
+f = 1024.0
+print(f"math.frexp({f}) = |{math.frexp(f)}|")   # math.frexp(1024.0) = |(0.5, 11)|
+# print("\n")
 
