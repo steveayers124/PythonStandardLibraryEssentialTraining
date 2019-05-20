@@ -102,5 +102,11 @@ print(f"  {i} % {j} = |{i % j}|")
 # math.fmod(a, b) is preferred for floats, and
 # a % b is preferred for integers.
 # [see https://docs.python.org/3/library/math.html :: math.fmod(x, y)] 
-#print("\n")
+print("\n")
+
+print("math.frexp(x)")
+# Okay, this is lower level stuff... given a float, express its internal representation:
+# First its multiplier, the mantissa, and second its exponent which the base, 2, is raised to.
+f = 10.24
+print(f"math.frexp({f}) = |{math.frexp(f)}|")
 
